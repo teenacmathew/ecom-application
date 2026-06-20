@@ -1,7 +1,7 @@
-package com.app.payment.controller;
+package com.app.payment_service.controller;
 
-import com.app.payment.model.Payment;
-import com.app.payment.service.PaymentService;
+import com.app.payment_service.model.Payment;
+import com.app.payment_service.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

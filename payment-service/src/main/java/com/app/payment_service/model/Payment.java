@@ -1,4 +1,4 @@
-package com.app.payment.model;
+package com.app.payment_service.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

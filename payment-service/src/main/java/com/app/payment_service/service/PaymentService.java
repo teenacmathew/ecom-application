@@ -1,7 +1,7 @@
-package com.app.payment.service;
+package com.app.payment_service.service;
 
-import com.app.payment.model.Payment;
-import com.app.payment.repository.PaymentRepository;
+import com.app.payment_service.model.Payment;
+import com.app.payment_service.repository.PaymentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

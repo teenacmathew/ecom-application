@@ -1,0 +1,15 @@
+apiVersion: v2
+name: ecom-app
+description: Parent chart for Employee and Payment microservices
+type: application
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+  - name: employee-service
+    version: 0.1.0
+    repository: "file://../employee-service"
+
+  - name: payment-service
+    version: 0.1.0
+    repository: "file://../payment-service"
